@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sytles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" alt="" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2026</h1>
+    </section>
+
+    <!--blog page content-->
+    <section class="blog-content">
+      <div class="blog-left">
+        <img src="img/certificate.jpg" alt="" />
+        <h2>Our Certificate & Online Programs for 2026</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam
+          quasi officia voluptatem accusantium totam quidem, et optio nemo
+          officiis architecto itaque blanditiis laborum similique voluptate
+          dolores quisquam velit enim!
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam
+          quasi officia voluptatem accusantium totam quidem, et optio nemo
+          officiis architecto itaque blanditiis laborum similique voluptate
+          dolores quisquam velit enim! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Dolore minima nobis facilis a unde. Quo dolorem
+          facere aliquid a dolore unde, ullam libero accusantium quod? Odio modi
+          tempore nostrum aliquam?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam
+          quasi officia voluptatem accusantium totam quidem, et optio nemo
+          officiis architecto itaque blanditiis laborum similique voluptate
+          dolores quisquam velit enim!
+
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam
+          quasi officia voluptatem accusantium totam quidem, et optio nemo
+          officiis architecto itaque blanditiis laborum similique voluptate
+          dolores quisquam velit enim!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam
+          quasi officia voluptatem accusantium totam quidem, et optio nemo
+          officiis architecto itaque blanditiis laborum similique voluptate
+          dolores quisquam velit enim!
+        </p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam
+          quasi officia voluptatem accusantium totam quidem, et optio nemo
+          officiis architecto itaque blanditiis laborum similique voluptate
+          dolores quisquam velit enim!
+        </p>
+       <div class="comment-box">
+        <h3>Leave a COmment</h3>
+        <form action="" class="comment-form">
+            <input type="text" placeholder="Enter Name">
+             <input type="text" placeholder="Enter Email">
+             <textarea rows="5" placeholder="Your Comment"></textarea>
+             <button type="submit" class="hero-btn red-btn">Post Comment</button>
+        </form>
+       </div>
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dicta
+        voluptas itaque voluptates atque quisquam<br />
+        ut assumenda est laborum! Odit rerum vitae voluptatibus at ad est
+        veritatis consequatur. Nobis, illo!
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook fa"></i>
+        <i class="fa-brands fa-x-twitter fa"></i>
+        <i class="fa-brands fa-instagram fa"></i>
+        <i class="fa-brands fa-linkedin fa"></i>
+      </div>
+      <p>
+        Made with <i class="fa-solid fa-heart fa"></i> by Team A - Iva, Abdul,
+        Sanjana and Pavan
+      </p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("nav-links");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
